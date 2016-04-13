@@ -7,5 +7,7 @@
 ![image](https://github.com/FantasRu/wordcloud/blob/master/2.jpg)
 
 
+
+
 ### MORE INFORMATION
 [http://fantasru.github.io/2015/12/14/wordcloud/](http://fantasru.github.io/2015/12/14/wordcloud/)
