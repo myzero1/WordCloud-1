@@ -1,9 +1,11 @@
 #coding: utf-8
- 
+
 import os
 from os import path
 from PIL import Image
 import numpy as np
+import matplotlib
+matplotlib.use('qt4agg')
 import matplotlib.pyplot as plt
 from wordcloud import WordCloud, STOPWORDS
 import jieba
@@ -20,7 +22,7 @@ def stopword(filename = ''):
         stopwords[line.decode('utf-8')] = 1
         line = f.readline().rstrip()
     f.close()
-stopword(filename = '/Users/Fantas/Desktop/git/stopwords.txt')
+stopword(filename = './stopwords.txt')
 
 
 # # 导入
@@ -29,7 +31,7 @@ stopword(filename = '/Users/Fantas/Desktop/git/stopwords.txt')
 # print text
 
 
-with open ('/Users/Fantas/Desktop/情书一.txt') as f:
+with open ('./中国宪法.txt') as f:
 
     text = f.readlines()
     text = r' '.join(text)
@@ -45,7 +47,7 @@ with open ('/Users/Fantas/Desktop/情书一.txt') as f:
 
 # 词云
 # wordcloud = WordCloud(max_font_size=40, relative_scaling=.5)
-wordcloud = WordCloud(font_path='/Users/Fantas/Downloads/simheittf/git/simhei.ttf',    background_color="black",   margin=5, width=1800, height=800) 
+wordcloud = WordCloud(font_path='./simheittf/simhei.ttf',    background_color="black",   margin=5, width=1800, height=800)
 
 wordcloud = wordcloud.generate(seg_list)
 #画图
@@ -54,5 +56,3 @@ plt.figure()
 plt.imshow(wordcloud)
 plt.axis("off")
 plt.show()
-
-

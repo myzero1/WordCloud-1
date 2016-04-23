@@ -1,13 +1,26 @@
-###Examples
+###How to use
+    
+    pip2 install -r requirements.txt
+    
+    python2 wordcloud.py
+        
 
-######情书一.txt
-![image](https://github.com/FantasRu/wordcloud/blob/master/examples/ex1.jpg)
+###Demo
 
-######吵架.txt
-![image](https://github.com/FantasRu/wordcloud/blob/master/2.jpg)
+#####情书一.txt
 
-
+![image](https://github.com/FantasRu/wordcloud/blob/master/ex1.jpg)
 
 
-### MORE INFORMATION
-[http://fantasru.github.io/2015/12/14/wordcloud/](http://fantasru.github.io/2015/12/14/wordcloud/)
+#####中国宪法
+
+![image](https://github.com/FantasRu/wordcloud/blob/master/ex3.png)
+
+
+###MORE INFORMATION
+
+http://fantasru.github.io/2015/12/14/wordcloud/
+
+
+
+
