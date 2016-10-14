@@ -1,26 +1,23 @@
-###How to use
-    
+### How to use
+
     pip2 install -r requirements.txt
-    
+
     python2 wordcloud.py
-        
-
-###Demo
-
-#####情书一.txt
-
-![image](https://github.com/FantasRu/WordCloud-CN/blob/master/demo/ex1.jpg?raw=true)
 
 
-#####中国宪法
+### Demo
 
-![image](https://github.com/FantasRu/WordCloud-CN/blob/master/demo/ex3.png?raw=true)
+##### 中国宪法
+
+![image](https://raw.githubusercontent.com/FantasRu/WordCloud/master/demo/中国宪法.png)
 
 
-###MORE INFORMATION
+##### 情书(Baidu)
 
-http://fantasru.github.io/2015/12/14/wordcloud/
+![image](https://raw.githubusercontent.com/FantasRu/WordCloud/master/demo/love_letter.png)
 
 
 
+![](https://raw.githubusercontent.com/FantasRu/WordCloud/master/demo/ex1.jpg)
 
+功能有待添加...
