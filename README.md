@@ -17,7 +17,4 @@
 ![image](https://raw.githubusercontent.com/FantasRu/WordCloud/master/demo/love_letter.png)
 
 
-
-![](https://raw.githubusercontent.com/FantasRu/WordCloud/master/demo/ex1.jpg)
-
 功能有待添加...
